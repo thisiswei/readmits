@@ -1,15 +1,14 @@
 #!/bin/bash
 
-# read all the logs in reverse order
+path="$1"
+repo="$2"
+tmp_log="/tmp/$repo""_readmits_logs.txt"
+tmp_hashs="/tmp/$repo""_readmits_hashs.txt"
+tmp_commits="/tmp/$repo""_readmits_commits.txt"
 
-
-# parse the log hashs
-
-
-# use git show and concat all the result in to one file
-
-
-# cd $(repo)
-# git log --reverse  --oneline > /tmp/gitlogs.txt
-# cat /tmp/gitlogs.txt | cut -d " " -f 1 > /tmp/commithashs.txt
-# cat /tmp/commithashs.txt | xargs git show > /tmp/$(repo)_commits.txt
+cd "$path"
+echo `pwd`
+git log --reverse  --oneline > $tmp_log
+cat $tmp_log | cut -d " " -f 1 > $tmp_hashs
+cat $tmp_hashs | xargs git show > $tmp_commits
+cp $tmp_commits $1
