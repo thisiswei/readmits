@@ -4,6 +4,8 @@ Flow commits through my mind
 **February**
 
 - python
+  * [unp](https://github.com/mitsuhiko/unp)
+  * [pipsi](https://github.com/mitsuhiko/pipsi)
   * flask
   * [cli-commandline-tool](https://github.com/mitsuhiko/click/commits/master?page=15)
 
@@ -28,7 +30,7 @@ Flow commits through my mind
 
 - rust
   * [redis-rust](https://github.com/mitsuhiko/redis-rs/commits/master?page=6)
-
+  * [vim-inspired-editor-in-rust](https://github.com/mathall/rim)
 
 
 Thought-dump
