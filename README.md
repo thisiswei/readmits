@@ -16,6 +16,9 @@ Flow commits through my mind
 - go
   * [understand-unix-process](https://github.com/tobegit3hub/understand_linux_process)
 
+- sicp
+  chapter 3
+
 
 **March**
 
