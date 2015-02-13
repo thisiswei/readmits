@@ -32,6 +32,9 @@ Flow commits through my mind
   * [redis-rust](https://github.com/mitsuhiko/redis-rs/commits/master?page=6)
   * [vim-inspired-editor-in-rust](https://github.com/mathall/rim)
 
+- other random
+  * [fzf](https://github.com/junegunn/fzf)
+
 
 Thought-dump
 ------------
