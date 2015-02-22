@@ -36,6 +36,12 @@ Flow commits through my mind
   * [fzf](https://github.com/junegunn/fzf)
 
 
+**Apir**
+
+- rust
+  * [replacement-for-ls](https://github.com/99plus2/exa)
+
+
 Thought-dump
 ------------
 
